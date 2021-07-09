@@ -7,9 +7,7 @@ func (HBFac *HuoBiFactory) Create() BaseHandler {
 	return &HuoBiHandler{}
 }
 
-type HuoBiHandler struct {
-	HandlerMap map[string]func()
-}
+type HuoBiHandler struct {}
 
 func (HBF *HuoBiHandler) Get() {}
 
